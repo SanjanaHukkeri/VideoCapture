@@ -51,8 +51,6 @@ while(True):
         #cv2.waitKey(125)
         prev=int(time.time())
 
-    if cv2.waitKey(25) & 0xFF == ord('q'):
-        break
    
 cap.release()
 cv2.destroyAllWindows()
